@@ -1,0 +1,131 @@
+/* CSS стили для base.html */
+
+/* Стили для header */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Стили для subheader */
+#subheader {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.cart {
+    font-size: 16px;
+}
+
+/* Стили для content */
+#content {
+    padding: 20px;
+}
+
+/* CSS стили для list.html */
+
+/* Стили для sidebar */
+#sidebar {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#sidebar ul li.selected {
+    font-weight: bold;
+}
+
+/* Стили для основного контента */
+#main {
+    float: left;
+    width: 75%;
+    padding: 20px;
+}
+
+.product-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стили для элементов продукта */
+.item {
+    margin-bottom: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* CSS стили для detail.html */
+
+/* Стили для изображения продукта */
+.product-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Стили для названия продукта */
+.product-detail h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Стили для категории продукта */
+.product-detail h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Стили для цены продукта */
+.product-detail .price {
+    font-size: 20px;
+    color: #ff6600; /* Оранжевый цвет для цены */
+    margin-bottom: 10px;
+}
+
+/* Стили для описания продукта */
+.product-detail p {
+    font-size: 16px;
+    line-height: 1.5;
+}

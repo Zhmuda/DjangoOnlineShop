@@ -1,0 +1,93 @@
+/* static/css/base.css */
+
+/* Reset CSS */
+body, h1, h2, h3, ul, li, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#subheader {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.cart {
+    font-size: 16px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#sidebar {
+    flex: 0 0 20%; /* 20% ширины */
+    background-color: #eee;
+    padding: 10px;
+}
+
+#sidebar h3 {
+    font-size: 18px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    margin-bottom: 5px;
+}
+
+#sidebar ul li.selected {
+    font-weight: bold;
+}
+
+#main {
+    flex: 0 0 75%; /* 75% ширины */
+}
+
+.item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.product-detail {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.product-detail img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
